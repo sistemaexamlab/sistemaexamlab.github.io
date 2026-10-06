@@ -1,12 +1,10 @@
 <?php
-// Exibe erros para diagnóstico
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 header('Content-Type: application/json; charset=utf-8');
 
-// Configurações do Banco de Dados
 $db_host = "sql100.infinityfree.com";
 $db_user = "SEU_USUARIO_MYSQL";
 $db_pass = "SUA_SENHA_MYSQL";
